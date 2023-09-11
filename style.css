@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox{
+    width: 60%;
+    margin: auto;
+    background: url(images/background.png);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.imgWrap{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+span{
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #fff;
+    cursor: ew-resize;
+}
+
+.arrow{
+    top: 50%;
+    position: absolute;
+    margin-left: -44px;
+    margin-top: -20px;
+    width: 3rem;
+    left: 20px;
+}
